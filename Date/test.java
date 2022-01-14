@@ -17,6 +17,22 @@ public class test {
         System.out.println("thu cua ngay b: " + b.thutrongtuan());
         System.out.println("thu cua ngay c: " + c.thutrongtuan());
         System.out.println("thu cua ngay d: " + d.thutrongtuan());
+        for (int i = 0; i < 10; i++) { System.out.print("-"); }
+        System.out.println();
         System.out.println("Theo Viet Nam");
+        System.out.println(a.toString());
+        System.out.println(b.toString());
+        System.out.println(c.toString());
+        System.out.println(d.toString());
+        for (int i = 0; i < 10; i++) { System.out.print("-"); }
+        System.out.println();
+        a.doidinhdang(1);
+        b.doidinhdang(1);
+        c.doidinhdang(1);
+        d.doidinhdang(1);
+        System.out.println(a.toString());
+        System.out.println(b.toString());
+        System.out.println(c.toString());
+        System.out.println(d.toString());
     }
 }
